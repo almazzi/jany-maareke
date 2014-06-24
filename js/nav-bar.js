@@ -27,3 +27,17 @@ $(document).ready(
         );
     }
 );
+
+$(document).ready(
+    function(){
+        $('[name="comment"]').click(
+            function(){
+               var  kosh=document.createElement('div');
+                kosh.addClass('comment');
+                $('.news-content').append(kosh);
+
+
+            }
+        );
+    }
+);

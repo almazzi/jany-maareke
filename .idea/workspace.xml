@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.960784" vertical-offset="2399" max-vertical-offset="3247">
-              <caret line="168" column="59" selection-start-line="168" selection-start-column="59" selection-end-line="168" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.626" vertical-offset="2747" max-vertical-offset="3247">
+              <caret line="180" column="56" selection-start-line="180" selection-start-column="48" selection-end-line="180" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="glavnyi.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="glavnyi.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/glavnyi.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36702126" vertical-offset="7936" max-vertical-offset="8636">
-              <caret line="479" column="14" selection-start-line="479" selection-start-column="14" selection-end-line="479" selection-end-column="14" />
+            <state vertical-scroll-proportion="-7.52" vertical-offset="7207" max-vertical-offset="8636">
+              <caret line="435" column="4" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -73,8 +73,8 @@
       <file leaf-file-name="nav-bar.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/nav-bar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="782">
+              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -104,9 +104,9 @@
       <list>
         <option value="$PROJECT_DIR$/css/glavnyi.sass" />
         <option value="$PROJECT_DIR$/jquery/bs" />
-        <option value="$PROJECT_DIR$/js/nav-bar.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/glavnyi.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/nav-bar.js" />
       </list>
     </option>
   </component>
@@ -518,16 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/nav-bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/wedding2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -538,10 +528,28 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/glavnyi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.52" vertical-offset="7207" max-vertical-offset="8636">
+          <caret line="435" column="4" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/nav-bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="782">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.960784" vertical-offset="2399" max-vertical-offset="3247">
-          <caret line="168" column="59" selection-start-line="168" selection-start-column="59" selection-end-line="168" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.626" vertical-offset="2747" max-vertical-offset="3247">
+          <caret line="180" column="56" selection-start-line="180" selection-start-column="48" selection-end-line="180" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -560,14 +568,6 @@
             <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/glavnyi.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36702126" vertical-offset="7936" max-vertical-offset="8636">
-          <caret line="479" column="14" selection-start-line="479" selection-start-column="14" selection-end-line="479" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
