@@ -417,7 +417,7 @@ margin-bottom: 20px;}
 .buttons  ul li a{
     color: #ffffff;
 }
-.buttons  ul li:nth-child(3) a{
+.buttons  ul li:nth-child(2) a{
     background-color: #bdbdbd;
 }
 .buttons  ul{
@@ -435,7 +435,7 @@ margin-bottom: 20px;}
 }
 .comment{
     display:block;
-    height: 200px;
+    height:auto;
     width: 100%;
     float: left;
 }
@@ -466,8 +466,38 @@ margin-bottom: 20px;}
     float: right;
 }
 .bottom-of-comm ul li{
+    margin: 0;
     padding: 0;
 }
+.bottom-of-comm ul li:nth-child(1){padding: 0;}
 .bottom-of-comm ul li a img{
     float: left;
+}
+.bottom-of-comm ul li a{
+    color: #ebebea;
+}
+.wrt-com{
+    width: 450px;
+    padding:5px 5px 5px 0;
+    display: inline-block;
+    float: left;
+    margin: 16px 0 16px 10px;
+    border: 1px solid #bdbdbd;
+}
+.wrt-com input{
+    width: 410px;
+    padding: 5px 0 5px 10px;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    border: none;
+
+}
+.wrt-com img{
+    display: inline-block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    padding: 3px;
+
 }
