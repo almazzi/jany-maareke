@@ -2,7 +2,7 @@
     background-color: #0099cc;
 }
 .content-color{
-    background-color: #fbfbfb;
+    background-color: #ffffff;
 }
 .base-pd{
     padding: 20px 5px;
@@ -23,11 +23,11 @@
     margin-left: 10px;
 }
 .border-b{
-    box-sizing: border-box;
+   /* box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;*/
 
-    border:1px solid #0099cc;
+    border:1px solid #bdbdbd;
 }
 .ortogo{
     margin: 0 auto;
@@ -77,7 +77,7 @@ body {
     width: 628px;
     height: 700px;
     float: left;
-    background-color: transparent;
+   /* background-color: transparent;*/
 }
 .idont{
     width: 364px;
@@ -260,7 +260,7 @@ height: 110px;
 .someone ul{
 
     padding: 0;
-    overflow: hidden;
+   /* overflow: hidden;*/
 }
 .someone ul li{
 
@@ -280,8 +280,6 @@ height: 110px;
     float: left;
     margin-right: 3px;
     margin-top: 3px;
-
-
 }
 .share{
     height: 60px ;
@@ -332,6 +330,7 @@ height: 110px;
 
 .something ul li{
     display: inline-block;
+    border: 2px solid transparent;
 
 
 
@@ -346,14 +345,23 @@ height: 110px;
     color:darkslategrey;
 }
 .news{
-    display: block;
+    display:block;
+
+
+
+
+
+}
+.who-it-is{
+    margin-top:20px ;
     position: relative;
+    display: block;
 
 }
 .news-i-b{
     position: absolute;
-    top:10px;
-    left: 10px;
+    top:-5px;
+    left: -54px;
     width: 44px;
     height: 44px;
     border: 3px solid #ebebea;
@@ -369,10 +377,13 @@ height: 110px;
 
 }
 .news-content{
+    float: left;
     padding-top: 20px ;
-    margin:  0 10px 0 65px;
+    padding:  0 10px 0 65px;
     display: block;
     height: auto;
+margin-bottom: 10px;
+    /*position: relative;*/
 }
 .date{
     color: #bdbdbd;
@@ -383,7 +394,7 @@ height: 110px;
 }
 .paska{
     position: absolute;
-    top: 36px;
+    top: 16px;
     right: 0;
 }
 
@@ -400,36 +411,48 @@ width: auto;
 height: auto;
 margin-bottom: 20px;}
 .buttons{
-    background-color: #bdbdbd;
+    margin-top: 10px;
+    background-color: #f5f5f5;
     display: block;
     clear: both;
+    height: 28px;
 }
 
 .buttons  ul li a img{
-    height: 20px;
-    width: 20px;
+    height: 12px;
+    width: 12px;
 }
 .buttons  ul li a{
+    font-size: 12px;
     font-weight: normal;
-    padding: 10px;
+    padding: 5px;
     background-color: #0099cc;
-}
-.buttons  ul li a{
     color: #ffffff;
+    border: 1px solid transparent;
 }
+
 .buttons  ul li:nth-child(2) a{
     background-color: #bdbdbd;
 }
 .buttons  ul{
+    margin: 0;
+    padding: 0;
     float: right;
     display: inline-block;}
 .buttons  ul li{
+    width: auto;
+    height: auto;
+   /* border: 1px solid transparent;*/
+    float: right;
     padding: 0;
+}
+.buttons ul li:nth-child(1){
+    padding:  0;
 }
 .buttons a{
     float: left;
     display: inline-block;
-    padding: 10px 0;
+    padding:  4px 0;
     text-decoration: none;
     font-weight: bold;
 }
@@ -443,7 +466,7 @@ margin-bottom: 20px;}
     width: 70px;
     height: 70px;
     display: inline-block;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     float: left;
 }
 .k{
@@ -463,7 +486,7 @@ margin-bottom: 20px;}
     margin: 0;
     padding: 0;
     font-size: 13px;
-    float: right;
+    float: left;
 }
 .bottom-of-comm ul li{
     margin: 0;
@@ -474,7 +497,9 @@ margin-bottom: 20px;}
     float: left;
 }
 .bottom-of-comm ul li a{
+    padding: 5px;
     color: #bdbdbd;
+    border: 1px solid transparent;
 }
 .wrt-com{
     width: 450px;
@@ -491,6 +516,7 @@ margin-bottom: 20px;}
     float: left;
     margin: 0;
     border: none;
+    background-color: transparent;
 
 }
 .wrt-com img{

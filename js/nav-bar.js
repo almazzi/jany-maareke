@@ -17,13 +17,26 @@ $(document).ready(
 );
 $(document).ready(
     function(){
-        $('.something ul li').hover(
+        $('#all li a').hover(
             function(){
-                $(this).css("border-bottom","2px solid #00ccff");
+                $(this).css("border-bottom","1px solid #00ccff");
             },
             function(){
-                $(this).css("border","none");
+                $(this).css("border","1px solid transparent");
             }
+        );
+    }
+);
+$(document).ready(
+    function(){
+        $('.bottom-of-comm ul li a').hover(
+            function(){
+                $(this).css('color','#0099cc');
+            },
+            function(){
+                $(this).css('color','#bdbdbd')
+            }
+
         );
     }
 );
@@ -32,8 +45,10 @@ $(document).ready(
     function(){
         $('[name="comment"]').click(
             function(){
-               var  kosh=document.createElement('div');
-                kosh.addClass('comment');
+               var  $kosh=document.createElement('div');
+                $kosh.addClass('comment');
+                var $para=$('[name="com"]').val();
+
                 $('.news-content').append(kosh);
 
 
